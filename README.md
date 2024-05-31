@@ -23,3 +23,7 @@ f(x, y, z) = (x AND y) OR (NOT(x) AND z)
 
 NOT(x AND y) = NOT(x) OR NOT(y)
 NOT(x OR y) = NOT(x) AND NOT(y)
+
+## Boolean Functions Synthesis
+
+This basically means Truth Table to Boolean Function (expression).
