@@ -50,5 +50,18 @@ NAND(x, y) = NOT(x AND y)
 
 This means that any boolean function can be represented using an expression containing only NAND operations.
 
+## Logic Gates
 
+A technique for implementing Boolean functions using logic gates.
 
+Logic gates:
+
+- Elementary (Nand, And, Or, Not)
+
+- Composite (Mux, Adder, ...)
+
+Gate Interface = Gate Abstraction - it's unique
+
+Gate Implementation = The actual implementation of the Gate Interface - this is not unique. There can be many implementations of one abstraction.
+
+Circuit Implementation = Hardwired circuits of the Gate Implementation
