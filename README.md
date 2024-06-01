@@ -65,3 +65,15 @@ Gate Interface = Gate Abstraction - it's unique
 Gate Implementation = The actual implementation of the Gate Interface - this is not unique. There can be many implementations of one abstraction.
 
 Circuit Implementation = Hardwired circuits of the Gate Implementation
+
+## Hardware Descripton Language (HDL)
+
+Steps:
+
+1. Create the logic function by syntesis the truth table -> the easiest way to achieve this is by pseudocode the conditions when the function returns 1. For xOR that would be: The function returns 1 if a AND NOT b OR NOT a AND b
+
+2. Create the diagram (gate interface) based on the logic function
+
+3. Implement the diagram in HDL 
+
+Verilog is an HDL.
